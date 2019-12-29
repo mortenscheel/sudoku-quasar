@@ -81,7 +81,7 @@ export default {
         }
 
         &.temporary{
-            color: #aaa;
+            color: #888;
         }
     }
 </style>
