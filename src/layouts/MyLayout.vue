@@ -1,20 +1,20 @@
 <template>
   <q-layout view="lHh Lpr lFf">
-    <q-header elevated>
-      <q-toolbar>
-        <q-btn
-          flat
-          dense
-          round
-          @click="leftDrawerOpen = !leftDrawerOpen"
-          icon="menu"
-          aria-label="Menu"
-        />
-        <q-toolbar-title>
-          Sudoku
-        </q-toolbar-title>
-      </q-toolbar>
-    </q-header>
+<!--    <q-header elevated>-->
+<!--      <q-toolbar>-->
+<!--        <q-btn-->
+<!--          flat-->
+<!--          dense-->
+<!--          round-->
+<!--          @click="leftDrawerOpen = !leftDrawerOpen"-->
+<!--          icon="menu"-->
+<!--          aria-label="Menu"-->
+<!--        />-->
+<!--        <q-toolbar-title>-->
+<!--          Sudoku-->
+<!--        </q-toolbar-title>-->
+<!--      </q-toolbar>-->
+<!--    </q-header>-->
 
 <!--    <q-drawer-->
 <!--      v-model="leftDrawerOpen"-->

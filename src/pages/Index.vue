@@ -2,7 +2,7 @@
     <q-page class="flex flex-center">
         <q-card class="shadow-0">
             <div class="flex items-center justify-between" v-if="started">
-                <div style="font-family: monospace">{{ elapsed }} s.</div><div>{{ board.calls }} forsøg</div>
+                <div style="font-family: monospace">{{ elapsed }} s.</div><div>{{ board.calls }} tried</div>
             </div>
             <div class="board shadow-6">
                 <template v-for="tiles in board.getRows()">
@@ -15,14 +15,14 @@
             <q-card-actions align="center">
                 <q-btn
                         unelevated color="primary"
-                        label="Løs"
+                        label="Solve"
                         @click="start"/>
               <q-btn
                       v-if="board && board.calls"
                       unelevated
                       :color="board.solved ? 'positive' : 'negative'"
                       @click="stop">
-                <div v-if="board.solved">Løsning fundet</div>
+                <div v-if="board.solved">Solution found</div>
                 <div v-else>Stop</div>
               </q-btn>
             </q-card-actions>
