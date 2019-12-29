@@ -1,6 +1,6 @@
-# Quasar App (sudoku)
+# Simple Sudoku Solver
 
-A Quasar Framework app
+A simple sudoku solver web app
 
 ## Install the dependencies
 ```bash
